@@ -1,0 +1,65 @@
+@viewport {
+  width: device-width;
+}
+
+* { margin:0; padding:0; font-family:inherit; }
+
+body {
+  background: #f5f5f5;
+  color: #222;
+  font-family: Inconsolata, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size:16px;
+  line-height:1.5;
+
+  width: 100%;
+  max-width:720px;
+  margin: 0 auto;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+
+  text-rendering: optimizeLegibility;
+  text-rendering: geometricPrecision;
+  -moz-font-feature-settings:"kern" 1, "liga" 1;
+  -ms-font-feature-settings:"kern" 1, "liga" 1;
+  -o-font-feature-settings:"kern" 1, "liga" 1;
+  -webkit-font-feature-settings:"kern" 1, "liga" 1;
+  font-feature-settings:"kern" 1, "liga" 1;
+}
+
+header, div.content, footer {
+  margin:0 32px;
+}
+
+header {
+  color: #da6470;
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  cursor: default;
+}
+
+header * {
+  cursor: default;
+  font-size:12px;
+  font-family:
+    Roboto
+}
+
+footer {
+  color:#ccc;
+  display: block;
+  margin-top: 5em;
+  padding:0 0 1em 0;
+}
+
+ul {
+    padding-left: 1em;
+}
+
+
+
+
